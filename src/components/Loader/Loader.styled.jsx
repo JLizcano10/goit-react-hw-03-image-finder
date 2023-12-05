@@ -1,11 +1,12 @@
-import { Audio } from 'react-loader-spinner';
+import { ThreeDots } from 'react-loader-spinner';
 
-<Audio
+<ThreeDots
   height="80"
   width="80"
   radius="9"
-  color="green"
-  ariaLabel="loading"
-  wrapperStyle
-  wrapperClass
-/>
+  color="rgb(227, 17, 108)"
+  ariaLabel="three-dots-loading"
+  wrapperStyle={{}}
+  wrapperClassName=""
+  visible={true}
+/>;

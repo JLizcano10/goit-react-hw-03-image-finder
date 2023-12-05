@@ -1,15 +1,16 @@
-import { ColorRing } from 'react-loader-spinner';
+import { ThreeDots } from 'react-loader-spinner';
 
 const Loader = () => {
   return (
-    <ColorRing
-      visible={true}
+    <ThreeDots
       height="80"
       width="80"
-      ariaLabel="blocks-loading"
+      radius="9"
+      color="rgb(227, 17, 108)"
+      ariaLabel="three-dots-loading"
       wrapperStyle={{}}
-      wrapperClass="blocks-wrapper"
-      colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+      wrapperClassName=""
+      visible={true}
     />
   );
 };
