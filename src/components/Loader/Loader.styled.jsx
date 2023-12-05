@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import { ThreeDots } from 'react-loader-spinner';
 
 <ThreeDots
@@ -10,3 +11,8 @@ import { ThreeDots } from 'react-loader-spinner';
   wrapperClassName=""
   visible={true}
 />;
+
+export const LoaderContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
