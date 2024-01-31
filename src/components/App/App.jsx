@@ -102,7 +102,7 @@ export default class App extends Component {
     return (
       <Container>
         <Searchbar onSubmit={this.formSubmitHandler} />
-        <ImageGallery data={images} onClose={this.toggleModal} />
+        <ImageGallery data={images}  />
         {status === 'ERROR' && (
           <ErrorMessage>No images for keyword "{searchWord}"</ErrorMessage>
         )}
